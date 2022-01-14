@@ -2,7 +2,7 @@
 
 I took CSC-605 course in UNCG for Spring 2022 semester, as part of the course work below are the assignments I did.
 
-**Assignment 1:** \
+**Assignment 1:** 
 
 create a ipython notebook of random team generator based on the .tsv file supplied. 
 The program should be able to generate teams based on the number of teams provided as a variable without using advanced libraries such as Pandas or Numpy.
