@@ -1,9 +1,9 @@
 
 ```
-# import csv to retrive csv file
-import csv
-
-# import random for generating random integer
+    # import csv to retrive csv file
+    import csv
+```
+    # import random for generating random integer
 import random
 from random import randint
 
