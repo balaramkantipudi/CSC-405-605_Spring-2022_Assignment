@@ -1,5 +1,4 @@
-```html
-<p># import csv</p>
+# import csv
 import csv
 
 # import random for picking random samples
@@ -51,5 +50,4 @@ for i in range(0, count):
     for element in stu:
         students.remove(element)
     
-    stu.clear()</p>
-```
+    stu.clear()
