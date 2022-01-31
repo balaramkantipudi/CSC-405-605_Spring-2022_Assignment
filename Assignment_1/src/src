@@ -1,5 +1,5 @@
 
-<code>
+`code`
 # import csv to retrive csv file
 import csv
 
@@ -50,4 +50,3 @@ for i in range(0, count):
         students.remove(element)
     
     stu.clear()
-</code>
