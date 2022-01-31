@@ -1,6 +1,5 @@
 ```html
-<p>
-# import csv
+<p># import csv</p>
 import csv
 
 # import random for picking random samples
