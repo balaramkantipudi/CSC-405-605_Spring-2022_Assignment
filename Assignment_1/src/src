@@ -1,4 +1,5 @@
 ```python
+<p>
 # import csv
 import csv
 
@@ -51,5 +52,5 @@ for i in range(0, count):
     for element in stu:
         students.remove(element)
     
-    stu.clear()
+    stu.clear()</p>
 ```
