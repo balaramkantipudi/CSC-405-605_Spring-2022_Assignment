@@ -1,36 +1,32 @@
 
 Step 1: Import required libraries
 
-Step 2: Read TSV files with help of csv reader
+Step 2: Read TSV files with help of csv reader from path
 
-Step 3: Remove first column as its just heading. By placing 
+Step 3: Remove first column as its just heading. By removing the 0th position the heading will be removed.
 
+Step 4: Find the size of class by len() method.
 
-# find the size of class
+Step 5: Take input from the user which is to be a integer, so type casting with keyword int.
 
-# read number of teams from user
+Step 6: Create an empty list
 
-# corner cases handled here
-# create an empty list
+Step 7: Append a number which is each team should have at minimum in that list
 
+Step 8: Now find the remainder number of students in class by modulus operation
 
-# Make the list with the number of people in the 
-for i in range(0, count):
-    l.append(int(classsize/count))
+Step 9: Now add the remaining students to each group to one by one from the beginning so that no one will be left.
 
-count1 = classsize%count
-r = 0
+Step 10: Now the list contains how many members does a team should contain
 
-while count1 > 0:
-    l[r] = l[r] + 1
-    r = r + 1
-    count1 = count1 - 1
+Step 11: Use a method called as random.sample() which generates random things in that range and add that to another list say stu
 
-for i in range(0, count):
-    stu = random.sample(students, l[i])
-    print(stu)
-    
-    for element in stu:
-        students.remove(element)
-    
-    stu.clear()
+Step 12: Print the team
+
+Step 13: Remove the students from the main students list so that students wont repeat from that use remove() in for loop.
+
+Step 14: Clear the list stu so that students from previous team won't repeat.
+
+Step 15: Add for loop before random.sample() method, so that it will run till all the teams are generated.
+
+Note: Need to change path before providing the file.
