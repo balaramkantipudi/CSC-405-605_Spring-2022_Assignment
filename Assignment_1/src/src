@@ -1,1 +1,55 @@
 
+`code`
+
+# import csv to retrive csv file
+import csv
+
+# import random for generating random integer
+import random
+from random import randint
+
+# read tsv file with the help of csv
+with open ('C:\\Users\\kbala\\OneDrive\\Documents\\sp-22-students.tsv.tsv','rt') as file:
+    reader = csv.reader(file, delimiter="\t")
+    students = list(reader)
+
+# remove first column as its just heading
+students.remove(students[0])
+
+# find the size of class
+classsize = len(students)
+
+# read number of teams from user
+count = int(input("Enter integer:"))
+
+# this means we are the beginning of a group, and should print a title
+if count == 1:
+    print(students)
+elif count > classsize:
+    print("enter valid input")
+elif count < 1:
+    print("enter valid input")
+count1 = count
+
+l = []
+for i in range(0, count):
+    l.append(int(classsize/count))
+
+count1 = classsize%count
+r = 0
+
+while count1 > 0:
+    l[r] = l[r] + 1
+    r = r + 1
+    count1 = count1 - 1
+
+for i in range(0, count):
+    stu = random.sample(students, l[i])
+    print(stu)
+    
+    for element in stu:
+        students.remove(element)
+    
+    stu.clear()
+
+`code`
