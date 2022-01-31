@@ -1,9 +1,8 @@
-<!-- Code Blocks -->
 ```python
-    # import csv to retrive csv file
-    import csv
-```
-    # import random for generating random integer
+# import csv
+import csv
+
+# import random for picking random samples
 import random
 from random import randint
 
@@ -21,7 +20,7 @@ classsize = len(students)
 # read number of teams from user
 count = int(input("Enter integer:"))
 
-# this means we are the beginning of a group, and should print a title
+# corner cases handled here
 if count == 1:
     print(students)
 elif count > classsize:
@@ -30,7 +29,10 @@ elif count < 1:
     print("enter valid input")
 count1 = count
 
+# create an empty list
 l = []
+
+# Make the list with the number of people in the 
 for i in range(0, count):
     l.append(int(classsize/count))
 
@@ -50,4 +52,4 @@ for i in range(0, count):
         students.remove(element)
     
     stu.clear()
-    ```
+```
