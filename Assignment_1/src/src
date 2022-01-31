@@ -1,35 +1,18 @@
-# import csv
-import csv
 
-# import random for picking random samples
-import random
-from random import randint
+Step 1: Import required libraries
 
-# read tsv file with the help of csv
-with open ('C:\\Users\\kbala\\OneDrive\\Documents\\sp-22-students.tsv.tsv','rt') as file:
-    reader = csv.reader(file, delimiter="\t")
-    students = list(reader)
+Step 2: Read TSV files with help of csv reader
 
-# remove first column as its just heading
-students.remove(students[0])
+Step 3: Remove first column as its just heading. By placing 
+
 
 # find the size of class
-classsize = len(students)
 
 # read number of teams from user
-count = int(input("Enter integer:"))
 
 # corner cases handled here
-if count == 1:
-    print(students)
-elif count > classsize:
-    print("enter valid input")
-elif count < 1:
-    print("enter valid input")
-count1 = count
-
 # create an empty list
-l = []
+
 
 # Make the list with the number of people in the 
 for i in range(0, count):
