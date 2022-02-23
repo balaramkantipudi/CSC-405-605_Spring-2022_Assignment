@@ -14,3 +14,8 @@ Hint: Use csv library to read the file into a list (and/or dictionary) and list 
 *Based on the dataset, here I am supposed to suggest a movie for date night. 
 The program should be able to generate top movies and suggest top 5 movies which are best for date night.
 The datasets provided are ratings, users and movies*
+
+
+**Assignment 3:** 
+
+*Provided with the most popular titanic dataset and the task I need to do is to study the survival rate of passengers on titanic and what variables affected survival*
