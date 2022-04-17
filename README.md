@@ -19,3 +19,8 @@ The datasets provided are ratings, users and movies*
 **Assignment 3:** 
 
 *Provided with the most popular titanic dataset and the task I need to do is to study the survival rate of passengers on titanic and what variables affected survival*
+
+**Assignment 4:** 
+
+*Using Matplotlib and Plotly use visulaize the titanic dataset based on questions which are: 
+*
