@@ -25,5 +25,4 @@ The datasets provided are ratings, users and movies*
 *Using Matplotlib and Plotly use visulaize the titanic dataset based on questions which are: 
 Create a bar chart for number of passengers that survived by class
 Plot a histogram of fares paid for passengers.
-Create a Choropleth map and show the total population, men's population and womens population on the county level.
-*
+Create a Choropleth map and show the total population, men's population and womens population on the county level.*
